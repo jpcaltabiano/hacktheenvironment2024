@@ -74,7 +74,7 @@ _NOTE: In a classroom with many students we must turn the Pis one by one and see
 
 0. Install nmap on your computer. nmap is a network sniffing tool for understanding network traffic. The goal is to identify the IP address of our raspberry PI.
 
-1. First identify your own IP address. You can do this by holding on the “option” button on your Mac keyboard while clicking on the “wifi” button on your top menu. Write down the IP address that your computer is using. The first time you run nmap from your terminal make sure you do it without turning on your PI.
+1. First identify your own IP address. You can do this by holding on the “option” button on your Mac keyboard while clicking on the “wifi” button on your top menu. For windows, open your start menu, type in "cmd" and run the first program. Type in `ipconfig` and press enter. Write down the IP address that your computer is using. For Windows, this will be the IPv4 address.The first time you run nmap from your terminal make sure you do it without turning on your PI.
 
 ```bash
 nmap -sP <YOUR_IP_ADDRESS>/24
